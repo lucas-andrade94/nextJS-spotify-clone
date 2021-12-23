@@ -1,27 +1,55 @@
-# Next.js + Tailwind CSS Example
+<h1 align="center">
+    Spotify Clone
+</h1>
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.0)](https://tailwindcss.com/blog/tailwindcss-v3) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+<p align="center">
+	<a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+	<a href="#-project">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+	<a href="#-instalation">Instalation</a>
+</p>
 
-## Preview
+## 🤖 Technologies
 
-Preview the example live on [StackBlitz](http://stackblitz.com/):
+Project developed using the following technologies:
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
+- [NextJS](https://nextjs.org/)
+- [Tailwind](https://tailwindcss.com/)
+- [NextAuth](https://next-auth.js.org/)
+- [Recoil.js](https://recoiljs.org/)
 
-## Deploy your own
+## 💿 Instalation
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
+### Prerequisites
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
+What is necessary to have installed:
 
-## How to use
+- [Node](https://nodejs.org/en/download/)
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
+### Run in terminal:
 
-```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-# or
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
+```
+# Clone this repository
+git clone https://github.com/lucas-andrade94/nextJS-spotify-clone.git
+
+# Go to the main folder
+cd nextJS-spotify-clone
+
+# Install dependencies
+npm install
+
+# Run
+npm run dev
 ```
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+### Website
+
+Under development...
+
+### Screens
+
+
+<div align="center">
+    <img alt="Login Screen" title="Login Screen" src=".github\screen-1.png?raw=true" width="200px" />
+		<img alt="Timeline Screen" title="Timeline Screen" src=".github\screen-2.png?raw=true" width="200px" />
+		<img alt="Comments Screen" title="Comments Screen" src=".github\screen-3.png?raw=true" width="200px" />
+</div>
