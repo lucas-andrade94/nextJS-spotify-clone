@@ -15,6 +15,7 @@ Project developed using the following technologies:
 - [NextJS](https://nextjs.org/)
 - [Tailwind](https://tailwindcss.com/)
 - [NextAuth](https://next-auth.js.org/)
+- [Spotify API](https://developer.spotify.com/)
 - [Recoil.js](https://recoiljs.org/)
 
 ## 💿 Instalation
