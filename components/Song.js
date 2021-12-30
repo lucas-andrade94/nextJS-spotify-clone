@@ -19,7 +19,7 @@ function Song({ order, track }) {
   };
 
   return (
-    <div
+    <section
       className="grid grid-cols-2 text-gray-500 py-4 px-5 hover:bg-gray-900 rounded-lg cursor-pointer"
       onClick={playSong}
     >
@@ -40,7 +40,7 @@ function Song({ order, track }) {
         <p className="w-40 hidden md:inline">{track.track.album.name}</p>
         <p>{millisToMinutesAndSeconds(track.track.duration_ms)}</p>
       </div>
-    </div>
+    </section>
   );
 }
 
