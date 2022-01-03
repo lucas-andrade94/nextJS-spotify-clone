@@ -2,11 +2,13 @@ import { useSession, signOut } from "next-auth/react";
 import { useEffect, useState } from "react";
 import { shuffle } from "lodash";
 import { useRecoilState, useRecoilValue } from "recoil";
+import Image from "next/image";
 
 import { ChevronDownIcon } from "@heroicons/react/outline";
 import { playlistState, playlistIdState } from "../atoms/playlistAtom";
 import useSpotify from "../hooks/useSpotify";
 import Songs from "./Songs";
+import UserPic from "../assets/user.jpeg";
 
 const colors = [
   "from-indigo-500",
@@ -52,9 +54,11 @@ function Center() {
               alt="Profile Picture"
             />
           ) : (
-            <img
-              className="rounded-full w-10 h-10"
-              src="https://png.pngitem.com/pimgs/s/24-248235_user-profile-avatar-login-account-fa-user-circle.png"
+            <Image
+              className="rounded-full"
+              width={"40px"}
+              height={"40px"}
+              src={UserPic}
               alt="Profile Picture"
             />
           )}

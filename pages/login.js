@@ -31,7 +31,10 @@ function Login({ providers }) {
           (That's necessary because Spotify API doesn't recognize this
           application as a device)
         </p>
-        <p>After that, you can play and pause any song in the playlists.</p>
+        <p>
+          After that, you can open the playlists and see the songs list, but the
+          Spotify API requires a Premium Account to listen the songs.
+        </p>
       </div>
     </section>
   );
