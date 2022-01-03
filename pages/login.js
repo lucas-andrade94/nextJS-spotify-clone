@@ -19,6 +19,20 @@ function Login({ providers }) {
           </button>
         </div>
       ))}
+      <div className="text-red-500 pt-6 text-center">
+        <p>To use the application:</p>
+        <p>Username: spotifytestuser22@gmail.com</p>
+        <p>Password: spotifyuser</p>
+        <p className="pt-3">
+          How to use: Login using this Spotify Test User and open in your device
+          the spotify web application and start a music.
+        </p>
+        <p>
+          (That's necessary because Spotify API doesn't recognize this
+          application as a device)
+        </p>
+        <p>After that, you can play and pause any song in the playlists.</p>
+      </div>
     </section>
   );
 }
