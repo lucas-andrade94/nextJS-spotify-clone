@@ -44,13 +44,11 @@ npm run dev
 
 ### Website
 
-Under development...
+https://next-js-spotify-clone-ochre.vercel.app/
 
 ### Screens
 
-
 <div align="center">
     <img alt="Login Screen" title="Login Screen" src=".github\screen-1.png?raw=true" width="200px" />
-		<img alt="Timeline Screen" title="Timeline Screen" src=".github\screen-2.png?raw=true" width="200px" />
-		<img alt="Comments Screen" title="Comments Screen" src=".github\screen-3.png?raw=true" width="200px" />
+		<img alt="Playlist Screen" title="Playlist Screen" src=".github\screen-2.png?raw=true" width="200px" />
 </div>
